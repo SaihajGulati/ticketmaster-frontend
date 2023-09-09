@@ -1,0 +1,40 @@
+<!DOCTYPE html>	
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SalTickes</title>
+  <link rel="stylesheet" href="css/homeLoggedIn.css">
+  <script src="js/search.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>	
+  <header>
+  	<div class="left-header">
+    <a href="home.html">SalTickets</a>
+    </div>
+    <div class="right-header">
+      <a href="home.html">Home</a>
+      <a href="login.html">Login / Sign Up</a>
+    </div>
+  </header>
+  <main>
+    <div class="search-container">
+      <div class="searchLabel">
+       Events Search
+      <hr>
+      </div>
+      <label class="required">Keyword</label><br><br>
+      <input type="text" id="keyword"><br><br>
+      <label class="required">Location</label><br><br>
+      <input type="text" id="location"><br><br>
+      <button class="search-button" onclick="searchEvents()">SEARCH</button>
+    </div>
+    <div id="results-container"></div>
+  <!-- Event details go here -->
+	</div>
+ 
+  </main>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favorites</title>
+  <link rel="stylesheet" href="css/wallet.css"> 
+</head>
+<body>
+  <!-- Header section (copied from the search page) -->
+  <header>
+  	<div class="left-header">
+    <a href="#">SalTickets</a>
+    </div>
+    <div class="right-header">
+      <a href="homeLoggedIn.html">Home</a>
+      <a href="favorites.html">Favorites</a>
+      <a href="wallet.html">Wallet</a>
+      <a href="home.html">Logout</a>	
+    </div>
+  </header>
+<div id = "hi">
+<h2>My Wallet</h2><br></br>
+Cash Balance: <span class="cash-balance-text"></span><div id="balance" style="display:inline;"></div><br></br>
+Total Account Value: $3000.00
+</div>
+</body>
+<script>
+var balanceDiv = document.querySelector('.cash-balance-text');
+balanceDiv.innerText = '$' + parseFloat(localStorage.getItem('balance')).toFixed(2);
+</script>
+</html>

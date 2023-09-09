@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favorites</title>
+  <link rel="stylesheet" href="css/favorites.css"> 
+</head>
+<body onload="displayFavorites();">
+  <!-- Header section (copied from the search page) -->
+  <header>
+  	<div class="left-header">
+    <a href="#">SalTickets</a>
+    </div>
+    <div class="right-header">
+      <a href="homeLoggedIn.html">Home</a>
+      <a href="favorites.html">Favorites</a>
+      <a href="wallet.html">Wallet</a>
+      <a href="home.html">Logout</a>	
+    </div>
+  </header>
+
+  <!-- Add the Favorites section -->
+  <section id="favorites-section">
+    <div class = favorites-label>My Favorites:</div>
+    <div id="favorites-container">
+      <!-- Favorited events will be displayed here -->
+    </div>
+  </section>
+  
+  <div id="event-details" class="event-details-container" style="display: none;">
+  <!-- Event details go here -->
+</div>
+
+  <script src="js/favorites.js"></script> 
+</body>
+</html>

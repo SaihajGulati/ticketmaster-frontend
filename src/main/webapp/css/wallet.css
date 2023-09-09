@@ -1,0 +1,222 @@
+
+#favorites-section {
+  margin: 20px;
+}
+
+.favorites-label{
+	margin-left: 10rem;
+	margin-bottom: 1.5rem;
+	margin-top: 0.5rem;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 1rem;
+}
+
+#hi
+{
+	margin-left: 15rem;
+}
+
+header {
+  background-color: rgb(131,124,255);
+  color: white;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  line-height: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.right-header {
+  float: right;
+}
+
+.right-header a {
+    margin-left: 10px;
+}
+
+.left-header {
+  float: left;
+}	
+
+/* Add CSS for the favorited event rectangles */
+.favorite-event {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid lightgray;
+  margin: 1.5rem;
+  margin-right: 10rem;
+  margin-left: 10rem;
+}
+
+.favorite-event .event-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.favorite-event .event-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+  margin-top: 0.4rem;
+}
+
+.favorite-event .event-date {
+  font-size: 14px;
+  margin-bottom: 0.3rem;
+}
+
+.favorite-event .price-range {
+  font-size: 22px;
+  margin-top: 1.5rem;
+}
+
+.favorite-event {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+
+.favorite-event button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: normal;
+  margin-top: 0.5rem
+}
+
+
+.event-details-container {
+  background-color: #737373;
+  border-radius: 20px;
+  width: 60%;	
+  padding: 20px;
+  margin: 2rem auto 0;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.event-details-container h2 {
+  font-size: 2rem;
+  text-align: center;
+  display: inline;
+  font-weight: normal;	
+}
+
+h2
+{
+	font-weight: normal;
+	margin-bottom: -1rem
+}
+
+.event-details-container .fa-star {
+  cursor: pointer;
+}
+
+.event-details-container .details-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.event-details-container .details-item {
+  margin-bottom: -50px;
+}
+
+.event-details-container .details-item h3 {
+  color: #6ceacf;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+.event-details-container .details-ticketmaster h3 {
+  color: #6ceacf;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+.event-details-container .details-ticketmaster {
+  margin-bottom: -0.5rem;
+}
+
+.event-details-container .ticketmaster-link {
+  color: #13c6ff;
+}
+
+.yellow-star {
+  color: yellow;
+}
+
+
+.event-details-container .quantity {
+  text-align: left;
+  width: 80%;
+}
+
+.event-details-container .quantity input {
+  text-align: left;
+  color: white;
+}
+
+.event-details-container .buy-button {
+  margin-top: 5rem;
+	margin-left: 70px;
+  background-color: #f76903;
+  color: white;
+  border: none;
+  height: 45px;
+  border-radius: 3px;
+  /*border-bottom: 1px #fa4c00;*/
+  padding: .8rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  cursor: pointer;
+  border-bottom: 4px solid #fa4c00;
+}
+
+.right-section {
+	margin-top: 1.5rem;
+  float: right;
+  text-align: left;
+  margin-right: 2rem;
+  line-height: 2rem;
+  margin-left: 2rem;
+}
+
+.left-section {
+	margin-top: 2rem;
+  float: left;
+  text-align: left;
+  margin-left: 4rem;
+}
+
+
+input {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  background-color: #737373;
+  padding: 10px;
+  width: 95%;
+  margin-top: -20px;
+  margin-bottom: -10px;
+  color: white;
+}
+
+.event-details-container .quantity h3 {
+  margin-bottom: 2rem;
+}
